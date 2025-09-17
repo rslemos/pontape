@@ -36,7 +36,7 @@ public class GraphQLService {
             Collections.synchronizedMap(new HashMap<String, SystemClient>());
 
     @Inject
-    @ConfigProperty(name = "system.http.port", defaultValue = "9080")
+    @ConfigProperty(name = "system.http.port", defaultValue = "9082")
     String SYSTEM_PORT;
 
     @Query("system")
