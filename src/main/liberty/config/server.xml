@@ -1,0 +1,10 @@
+<server>
+
+    <featureManager>
+    </featureManager>
+
+    <httpEndpoint id="defaultHttpEndpoint"
+                  httpPort="9080"
+                  httpsPort="9443" />
+
+</server>
