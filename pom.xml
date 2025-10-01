@@ -19,6 +19,11 @@
          -->
         <serverName>${project.artifactId}</serverName>
         <userDirectory>${env.WLP_USER_DIR}</userDirectory>
+
+        <!-- jvm.options -->
+        <liberty.jvm.file.encoding>-Dfile.encoding=UTF-8</liberty.jvm.file.encoding>
+        <liberty.jvm.user.language>-Duser.language=en</liberty.jvm.user.language>
+        <liberty.jvm.user.country>-Duser.country=US</liberty.jvm.user.country>
     </properties>
 
     <build>
