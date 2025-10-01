@@ -17,6 +17,11 @@
             - https://github.com/OpenLiberty/ci.maven/blob/main/docs/common-parameters.md
          -->
         <serverName>${project.artifactId}</serverName>
+
+        <!-- jvm.options -->
+        <liberty.jvm.file.encoding>-Dfile.encoding=UTF-8</liberty.jvm.file.encoding>
+        <liberty.jvm.user.language>-Duser.language=en</liberty.jvm.user.language>
+        <liberty.jvm.user.country>-Duser.country=US</liberty.jvm.user.country>
     </properties>
 
     <build>
