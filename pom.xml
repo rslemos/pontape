@@ -32,4 +32,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.microprofile.graphql</groupId>
+            <artifactId>microprofile-graphql-api</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+    </dependencies>
 </project>
