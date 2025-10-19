@@ -1,6 +1,7 @@
 <server>
 
     <featureManager>
+        <platform>microprofile-4.0</platform>
     </featureManager>
 
     <httpEndpoint id="defaultHttpEndpoint"
