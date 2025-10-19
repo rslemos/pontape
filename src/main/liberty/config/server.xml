@@ -2,6 +2,7 @@
 
     <featureManager>
         <platform>microprofile-4.0</platform>
+        <feature>mpgraphql</feature>
     </featureManager>
 
     <httpEndpoint id="defaultHttpEndpoint"
